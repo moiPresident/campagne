@@ -1,5 +1,9 @@
 #!/bin/bash
 
-echo "Toute idée sera entendu mais risque fortement de ne pas être prise en compte :)"
+echo -e "Toute idée sera entendu mais risque fortement de ne pas être prise en compte :)\n"
 
-cat src/*
+for f in src/*;
+do echo -e "\t"$f"\n";
+cat $f;
+echo -e "\n";
+done
