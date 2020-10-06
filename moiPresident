@@ -1,9 +1,9 @@
 #!/bin/bash
 
+clear
+
 echo -e "Toute idée sera entendu mais risque fortement de ne pas être prise en compte :)\n"
 
-for f in src/*;
-do echo -e "\t"$f"\n";
-cat $f;
-echo -e "\n";
+for f in src/*; do 
+    echo -e "$(cat $f)\t"$f
 done
