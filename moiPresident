@@ -2,8 +2,12 @@
 
 clear
 
+sleep 0.1
 echo -e "Toute idée sera entendu mais risque fortement de ne pas être prise en compte :)\n"
+sleep 0.5
 
-for f in src/*; do 
-    echo -e "$(cat $f)\t"$f
+for f in src/*; do
+    echo -e "\t""\e[4;32m"$f"\e[0m""\n"
+    cat $f
+    echo -e "\n"
 done
