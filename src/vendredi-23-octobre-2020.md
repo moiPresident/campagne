@@ -1,0 +1,1 @@
+Moi president, un assistant stagiaire sera prévu pour répondre au téléphone
