@@ -1,0 +1,1 @@
+Moi president on va vendre la france à l'allemagne, parce que c'est le seul pays qui marche en europe.
